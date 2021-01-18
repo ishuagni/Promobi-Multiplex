@@ -70,7 +70,7 @@ Following APIs were created:-
 
 Other Features:-
 - Bcrypt is used for encryption and decryption of password
-- Seed data is created, including one user and 2 goals for that user
+- Seed data is created, including one admin user and 1 movie with 4 screens, 4 slots per screen and 105 seats per slot.
 - JWT Authentication is required for all APIs
 - Fixtures Data created for test
 
