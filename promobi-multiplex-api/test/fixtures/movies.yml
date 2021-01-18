@@ -1,0 +1,6 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: "Movie 1"
+  movie_time: 2021-01-15 21:40:19
+  rating: 9.99

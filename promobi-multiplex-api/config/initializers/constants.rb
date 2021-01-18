@@ -1,0 +1,2 @@
+SLOT_TIME = ['12-3 PM', '3-6 PM', '6-9 PM', '9-12 AM']
+SEATS_PRICES = [400, 200, 100]

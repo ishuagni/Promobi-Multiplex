@@ -1,0 +1,57 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: "S1"
+  price: 100
+  position: 0
+  owned_by: 
+  slot: one
+
+two:
+  name: "S2"
+  price: 
+  position: 1
+  owned_by: 
+  slot: one
+
+three:
+  name: "S1"
+  price: 100
+  position: 0
+  owned_by: 
+  slot: two
+
+four:
+  name: "S2"
+  price: 
+  position: 1
+  owned_by: 
+  slot: two
+
+five:
+  name: "S1"
+  price: 100
+  position: 0
+  owned_by: 
+  slot: three
+
+six:
+  name: "S2"
+  price: 
+  position: 1
+  owned_by: 
+  slot: three
+
+seven:
+  name: "S1"
+  price: 100
+  position: 0
+  owned_by: 
+  slot: four
+
+eight:
+  name: "S2"
+  price: 
+  position: 1
+  owned_by: 
+  slot: four

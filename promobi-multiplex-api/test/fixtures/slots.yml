@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  slot_time: 2021-01-15 21:40:19
+  screen: one
+
+two:
+  slot_time: 2021-01-15 21:40:19
+  screen: one
+
+three:
+  slot_time: 2021-01-15 21:40:19
+  screen: two
+
+four:
+  slot_time: 2021-01-15 21:40:19
+  screen: two

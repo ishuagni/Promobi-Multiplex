@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: "Screen 1"
+  slot: MyString
+  movie: one
+
+two:
+  name: "Screen 2"
+  slot: MyString
+  movie: one

@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  seats: 5
+  price: 9.99
+
+two:
+  email: MyString
+  seats: 5
+  price: 9.99

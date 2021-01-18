@@ -1,0 +1,22 @@
+.report-list-view {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    .flex1 {
+        flex: 1;
+    }
+
+    .flex2 {
+        flex: 2;
+    }
+
+    .flex3 {
+        flex: 3;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+}

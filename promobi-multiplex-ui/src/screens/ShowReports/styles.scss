@@ -1,0 +1,22 @@
+// Global CSS Imports
+@import '../../sass/base';
+@import '../../sass/typography';
+
+.show-reports {
+    margin-top: -16px;
+}
+
+.report-list-container {
+    margin: 20px;
+
+    .list-header {
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+        padding: 10px;
+
+        h1 {
+            margin-top: 0px;
+        }
+    }
+}

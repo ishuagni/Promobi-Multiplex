@@ -1,0 +1,137 @@
+@import '../../../sass/base';
+@import '../../../sass/typography';
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main-add-movie {
+  position:fixed;
+  background: white;
+  width: 50%;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 0px 15px;
+
+    h3 {
+      margin: 0px;
+    }
+
+    img {
+      height: 25px;
+      cursor: pointer;
+    }
+  }
+
+  .modal-body {
+    padding: 25px;
+    margin: 0px 15px;
+    text-align: center;
+
+    .email-container {
+      margin-bottom: 10px;
+      text-align: left;
+
+      .label {
+        margin-bottom: 10px;
+      }
+    }
+
+    .flex-container {
+      display: flex;
+      justify-content: space-between;
+
+      .email-container {
+        margin-bottom: 10px;
+        text-align: left;
+        width: 45%;
+  
+        .label {
+          margin-bottom: 10px;
+        }
+      }
+
+      .drpdn-container {
+        margin-bottom: 10px;
+        text-align: left;
+        width: 45%;
+  
+        .label {
+          margin-bottom: 10px;
+        }
+  
+        select {
+          @include regular;
+          width: 100%;
+          padding: 15px 16px;
+          text-align: left;
+    
+          font-size: 1rem;
+          line-height: 1.25rem;
+          color: #2a2c2e;
+    
+          border: 1px solid #54595f;
+          border-radius: 4px;
+        }
+  
+        select:focus {
+          outline: none !important;
+          border: 1px solid $color-secondary;
+          box-shadow: 0 0 0 0.1rem rgba(42, 128, 0, 0.5);
+        }
+      }
+    }
+
+    button {
+      @include medium;
+      width: 30%;
+      margin-top: 15px;
+      border: 0;
+      color: #ffffff;
+      padding: 14px 0px 17px 0px;
+      font-size: 1.0625rem;
+      line-height: 1.3125rem;
+      border-radius: 4px;
+      transition: all 0.15s ease-in-out;
+    
+      &:hover {
+        background-color: #226600;
+      }
+    
+      &:focus {
+        outline: none !important;
+        box-shadow: 0 0 0 0.2rem rgba(34, 102, 0, 0.5);
+        background-color: #226600;
+      }
+    
+      &:disabled {
+        background-color: $color-disabled;
+      }
+    
+      background: none;
+      box-shadow: none;
+      background-color: $color-secondary;
+      }
+  }
+}
+
+.display-block {
+  display: block;
+  z-index: 1;
+}
+
+.display-none {
+  display: none;
+}
